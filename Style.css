@@ -141,3 +141,26 @@ button{
 button:hover{
     background:#0099cc;
 }
+  .services{
+    padding:60px 8%;
+    text-align:center;
+}
+
+.services h2{
+    color:gold;
+    margin-bottom:30px;
+}
+
+.service-box{
+    background:#181818;
+    border:1px solid gold;
+    border-radius:12px;
+    padding:20px;
+    margin:15px 0;
+    transition:0.3s;
+}
+
+.service-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 15px gold;
+}
